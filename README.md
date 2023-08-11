@@ -1,6 +1,6 @@
 # HR_Analysis
 ## This project is an Analysis of HR Data from year 2000 to 2020. 
--  This project has a raw data that hasnt been cleaned yet. It could be cleaned and correct the formating through excel and import the data in powerbi for data visualization but for now we will be using SQL instead to cleaned and correct the formating issues of dates,columns etc.
+-  This project has a raw data that hasnt been cleaned yet. It could be cleaned and correct the formating through excel and import the data in powerbi for data visualization but for now we will be using SQL instead to clean and correct the formating issues of dates,columns etc.
 
 
 
