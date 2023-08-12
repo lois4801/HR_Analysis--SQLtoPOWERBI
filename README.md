@@ -7,6 +7,7 @@
 
 NOTE: 
 - I have created a database and table named hr and imported all the data in its raw form. I didnt changed the data type as well.
+- During date formatting change, I mistakenly made all the dates into null during the process. So be be sure to never update the data into the main server itself. Make a copy of csv file and do your analysis using that file. 
 
 
 
