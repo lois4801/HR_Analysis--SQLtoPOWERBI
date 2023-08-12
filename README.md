@@ -10,7 +10,7 @@ NOTE:
 
 
 
-   Here are the following questions needed to be anwered.
+   Here are the following questions needed to be answered.
 
 -- What is the gender breakdown of employees in the company?
 
