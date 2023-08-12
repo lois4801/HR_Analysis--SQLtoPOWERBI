@@ -5,6 +5,12 @@
   - Thus it is better to clean the data through python or sql and import the data in powerbi for data visualization. For now we will be using SQL instead to clean and correct the formating issues of dates,columns etc.
 
 
+NOTE: 
+- I have created a database and table named hr and imported all the data in its raw form. I didnt changed the data type as well.
+
+
+
+   Here are the following questions needed to be anwered.
 
 -- What is the gender breakdown of employees in the company?
 
