@@ -110,14 +110,20 @@
 
 - It dit run perfectly. So now, I will be using this program to change the data for the hire_date column.
 
-  ###  Converted the data in the hire_date column.
+  ###  Converted the data under hire_date column.
 
 ![hire_date](https://github.com/lois4801/HR_Analysis/assets/96842662/989cfd0f-895e-4ccf-bfe3-f574b6a59a53)
 
 
 ![hire_date2](https://github.com/lois4801/HR_Analysis/assets/96842662/0f31e1db-55c7-44ad-90e8-778f3d7141ce)
 
+### Converting the data under termdate column
+- Converting the datetime format into standard date format (year- month- date only) and filling the empty cells with year
 
+![image](https://github.com/lois4801/HR_Analysis/assets/96842662/a165f68d-4a12-41bd-9129-cf941cb8c78f)
 
+![termdate](https://github.com/lois4801/HR_Analysis/assets/96842662/66b6cf8c-32fc-4c21-bb39-10a9a52dc96d)\
+
+![termdate2](https://github.com/lois4801/HR_Analysis/assets/96842662/4581502c-e093-4187-8e9b-81b41d2da7bc)
 
   
