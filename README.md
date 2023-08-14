@@ -46,17 +46,36 @@
 
 1. During date formatting change, I mistakenly made all the dates into null during the process. So be be sure to never update the data into the main server itself. Make a copy of csv file and do your analysis using that file. 
 
-2. During data cleaning
+2. During data transformation after data analysis
 - The data under date (column), hire_date(column) has a combination of different date format
 - example  06-04-91 (month- day- year) and  6/29/1984 (month-day- year). Some data included has the right format 2012-01-01 (year- month- year)
 
 - I had a hard time during data transformation, errors were encountered via excel and sql because the dataset has multiple formats included in each column.
 
 - Importing the data first in excel and did power query to transform the data but it created error on some data.
+-  A friend of mine were able to transform all the data into month / day/ year through his developer power query ms excel software. But mine cant, so I have to think another way.
 ![Screenshot 2023-08-13 222944](https://github.com/lois4801/HR_Analysis/assets/96842662/182d9361-cd79-46c0-ac03-0b8634faa285)
 
 
   ![Screenshot 2023-08-13 222920](https://github.com/lois4801/HR_Analysis/assets/96842662/a597042e-a459-4c36-bc4b-e020e257f7b4)
+
+
+
+### Then using sql. I made different trials before I finally cracked it.
+### FIRST TRIAL
+
+- I keep receiving error for running this program..  Incorrect value: '06-04-91' for function str_to_date. 
+
+![Screenshot 2023-08-13 224520](https://github.com/lois4801/HR_Analysis/assets/96842662/76aefd21-a108-4595-9139-811c348d3de7)
+
+### Second trial
+-  I have tried many other ways but soon I realize that the only way to fix it is to first fix one type of date at a time.
+
+This is the orignal data
+![image](https://github.com/lois4801/HR_Analysis/assets/96842662/a165f68d-4a12-41bd-9129-cf941cb8c78f)
+
+
+- Tried creating new column to transfer all the corrected transform data
 
 
 
