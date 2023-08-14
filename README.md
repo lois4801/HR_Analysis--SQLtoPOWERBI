@@ -52,10 +52,12 @@
 
 - I had a hard time during data transformation, errors were encountered via excel and sql because the dataset has multiple formats included in each column.
 
+- Importing the data first in excel and did power query to transform the data but it created error on some data.
+![Screenshot 2023-08-13 222944](https://github.com/lois4801/HR_Analysis/assets/96842662/182d9361-cd79-46c0-ac03-0b8634faa285)
 
 
+  ![Screenshot 2023-08-13 222920](https://github.com/lois4801/HR_Analysis/assets/96842662/a597042e-a459-4c36-bc4b-e020e257f7b4)
 
-  
 
 
 
