@@ -87,7 +87,7 @@
 
 ![third trial](https://github.com/lois4801/HR_Analysis/assets/96842662/dc9489f1-f701-439a-a6e6-43dd983f0756)
 
-![image](https://github.com/lois4801/HR_Analysis/assets/96842662/e12cec28-0bd4-44fc-822a-f6ae915398ed)
+![third trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/0b79d5ea-d92b-4a5d-b5a3-5229be371321)
 
 
 
