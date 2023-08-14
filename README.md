@@ -108,4 +108,17 @@
 ![final trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/75890fe2-0129-4a1c-8f5b-bf1ad92dcfef)
 
 - It dit run perfectly. So now, I will be using this program to change the data for the hire_date column.
+
+  
+- Converted the data in the hire_date column.
+
+![hire_date](https://github.com/lois4801/HR_Analysis/assets/96842662/989cfd0f-895e-4ccf-bfe3-f574b6a59a53)
+
+
+![hire_date2](https://github.com/lois4801/HR_Analysis/assets/96842662/0f31e1db-55c7-44ad-90e8-778f3d7141ce)
+
+
+
+
+
   
