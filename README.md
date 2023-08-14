@@ -104,8 +104,9 @@
   
 ![final trial](https://github.com/lois4801/HR_Analysis/assets/96842662/250a923e-ce60-44fd-8d40-b0d7d93c66b2)
 
+![final trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/e73e293b-1111-4f56-a8f5-efddacbc820a)
 
-![final trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/75890fe2-0129-4a1c-8f5b-bf1ad92dcfef)
+
 
 - It dit run perfectly. So now, I will be using this program to change the data for the hire_date column.
 
