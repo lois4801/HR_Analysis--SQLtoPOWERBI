@@ -89,8 +89,9 @@
 
 ![third trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/0b79d5ea-d92b-4a5d-b5a3-5229be371321)
 
+- Now I will try to transform the second one.
 
-
+  
 
 
 
