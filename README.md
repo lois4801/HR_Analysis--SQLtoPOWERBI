@@ -46,10 +46,13 @@
 
 1. During date formatting change, I mistakenly made all the dates into null during the process. So be be sure to never update the data into the main server itself. Make a copy of csv file and do your analysis using that file. 
 
+2. During data cleaning
 - The data under date (column), hire_date(column) has a combination of different date format
-- example  06-04-91 (month- day- year) and    6/29/1984 (month-day- year). Some data included has the right format 2012-01-01 (year- month- year)
+- example  06-04-91 (month- day- year) and  6/29/1984 (month-day- year). Some data included has the right format 2012-01-01 (year- month- year)
 
-- During the process it wont allow me to change 
+- I had a hard time during data transformation, errors were encountered via excel and sql because the dataset has multiple formats included in each column.
+
+
 
 
   
