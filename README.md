@@ -62,17 +62,20 @@
 
 
 ### Then using sql. I made different trials before I finally cracked it.
-### FIRST TRIAL
 
-- I keep receiving error for running this program..  Incorrect value: '06-04-91' for function str_to_date. 
+
+### This is the orignal data
+![image](https://github.com/lois4801/HR_Analysis/assets/96842662/a165f68d-4a12-41bd-9129-cf941cb8c78f)
+
+
+### FIRST TRIAL
+- I keep receiving error for running this program. Incorrect value: '06-04-91' for function str_to_date. Tried tweaking some but it will just push some other errors.
 
 ![Screenshot 2023-08-13 224520](https://github.com/lois4801/HR_Analysis/assets/96842662/76aefd21-a108-4595-9139-811c348d3de7)
 
 ### Second trial
--  I have tried many other ways but soon I realize that the only way to fix it is to first fix one type of date at a time.
+-  Creating another table transform the all the data
 
-This is the orignal data
-![image](https://github.com/lois4801/HR_Analysis/assets/96842662/a165f68d-4a12-41bd-9129-cf941cb8c78f)
 
 
 - Tried creating new column to transfer all the corrected transform data
