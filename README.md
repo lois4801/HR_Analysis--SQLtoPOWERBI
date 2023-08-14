@@ -107,5 +107,5 @@
 
 ![final trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/75890fe2-0129-4a1c-8f5b-bf1ad92dcfef)
 
-- It dit run perfectly. So now, I will be using this program to change the data for under the hire_date column.
+- It dit run perfectly. So now, I will be using this program to change the data for the hire_date column.
   
