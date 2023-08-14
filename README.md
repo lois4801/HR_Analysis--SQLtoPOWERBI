@@ -92,16 +92,18 @@
 
 - Then now, the second data will be transformed.
 
-  ![fourth trial](https://github.com/lois4801/HR_Analysis/assets/96842662/bb621044-3b64-43fd-bc32-34783ae51e04)
+![fourth trial](https://github.com/lois4801/HR_Analysis/assets/96842662/d3681ee7-415f-4d61-b675-95a4bcad2544)
+
 
 
   ![fourth trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/8e86db05-8557-44ea-a1a3-e5c5e13e84bd)
 
 
 ### Final Conclusion
-- Now that both can be transformed separately succesfully. I dropped the whole hr table and imported again the raw file to try mixing both programs together and test if it can be run successfully as one program and get just one sweep result. 
+- Now that both can be transformed separately succesfully. I dropped the whole hr table and imported again the raw file to try mixing both programs together and test if it can be run successfully as one program and get just one sweep result.
+  
+![final trial](https://github.com/lois4801/HR_Analysis/assets/96842662/250a923e-ce60-44fd-8d40-b0d7d93c66b2)
 
-![final trial](https://github.com/lois4801/HR_Analysis/assets/96842662/8511182b-2203-425c-bec0-637b0b9ae76c)
 
 ![final trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/75890fe2-0129-4a1c-8f5b-bf1ad92dcfef)
 
