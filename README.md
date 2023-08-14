@@ -69,12 +69,15 @@
 
 
 ### FIRST TRIAL
-- I keep receiving error for running this program. Incorrect value: '06-04-91' for function str_to_date. Tried tweaking some but it will just push some other errors.
+- I keep receiving error for running this program. Incorrect value: '06-04-91' for function str_to_date. Tried tweaking some but it is just the same.
 
 ![Screenshot 2023-08-13 224520](https://github.com/lois4801/HR_Analysis/assets/96842662/76aefd21-a108-4595-9139-811c348d3de7)
 
 ### Second trial
--  Creating another table transform the all the data
+-  Creating another column to transform the all the data all at once. But I failed.
+
+![second trial](https://github.com/lois4801/HR_Analysis/assets/96842662/ed8b0f18-d618-4cc3-8fca-d27b371d624d)
+
 
 
 
