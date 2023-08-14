@@ -68,7 +68,7 @@
 ![image](https://github.com/lois4801/HR_Analysis/assets/96842662/a165f68d-4a12-41bd-9129-cf941cb8c78f)
 
 
-### FIRST TRIAL
+### First TRIAL
 - I keep receiving error for running this program. Incorrect value: '06-04-91' for function str_to_date. Tried tweaking some but it is just the same.
 
 ![Screenshot 2023-08-13 224520](https://github.com/lois4801/HR_Analysis/assets/96842662/76aefd21-a108-4595-9139-811c348d3de7)
@@ -89,10 +89,21 @@
 
 ![third trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/0b79d5ea-d92b-4a5d-b5a3-5229be371321)
 
-- Now I will try to transform the second one.
 
-  
+- Then now, the second data will be transformed.
+
+  ![fourth trial](https://github.com/lois4801/HR_Analysis/assets/96842662/bb621044-3b64-43fd-bc32-34783ae51e04)
 
 
+  ![fourth trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/8e86db05-8557-44ea-a1a3-e5c5e13e84bd)
 
+
+### Final Conclusion
+- Now that both can be transformed separately succesfully. I dropped the whole hr table and imported again the raw file to try mixing both programs together and test if it can be run successfully as one program and get just one sweep result. 
+
+![final trial](https://github.com/lois4801/HR_Analysis/assets/96842662/8511182b-2203-425c-bec0-637b0b9ae76c)
+
+![final trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/75890fe2-0129-4a1c-8f5b-bf1ad92dcfef)
+
+- It dit run perfectly. So now, I will be using this program to change the data for under the hire_date column.
   
