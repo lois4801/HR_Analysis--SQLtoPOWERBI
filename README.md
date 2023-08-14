@@ -5,13 +5,10 @@
   - Thus it is better to clean the data through python or sql and import the data in powerbi for data visualization. For now we will be using SQL instead to clean and correct the formating issues of dates,columns etc.
 
 
-NOTE: 
+## NOTE: 
 - I have created a database and table named hr and imported all the data in its raw form. I didnt changed the data type as well.
-- During date formatting change, I mistakenly made all the dates into null during the process. So be be sure to never update the data into the main server itself. Make a copy of csv file and do your analysis using that file. 
 
-
-
-   Here are the following questions needed to be answered.
+ Here are the following questions needed to be answered.
 
 -- What is the gender breakdown of employees in the company?
 
@@ -44,3 +41,20 @@ NOTE:
 
 
 -- What is the tenure distribution for each department?
+
+## Problems Encountered and how I solved it.
+
+1. During date formatting change, I mistakenly made all the dates into null during the process. So be be sure to never update the data into the main server itself. Make a copy of csv file and do your analysis using that file. 
+
+- The data under date (column), hire_date(column) has a combination of different date format
+- example  06-04-91 (month- day- year) and    6/29/1984 (month-day- year). Some data included has the right format 2012-01-01 (year- month- year)
+
+- During the process it wont allow me to change 
+
+
+  
+
+
+
+
+  
