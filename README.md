@@ -48,12 +48,12 @@
 
 2. During data transformation after data analysis
 - The data under date (column), hire_date(column) has a combination of different date format
-- example  06-04-91 (month- day- year) and  6/29/1984 (month-day- year). Some data included has the right format 2012-01-01 (year- month- year)
+-- example  06-04-91 (month- day- year) and  6/29/1984 (month-day- year). Some data included has the right format 2012-01-01 (year- month- year)
 
 - I had a hard time during data transformation, errors were encountered via excel and sql because the dataset has multiple formats included in each column.
 
 - Importing the data first in excel and did power query to transform the data but it created error on some data.
--  A friend of mine were able to transform all the data into (month / day/ year) through his developer power query ms excel software. But mine cant, so I have to think another way.
+-- A friend of mine were able to transform all the data into (month / day/ year) through his developer power query ms excel software. But mine cant, so I have to think another way.
 ![Screenshot 2023-08-13 222944](https://github.com/lois4801/HR_Analysis/assets/96842662/182d9361-cd79-46c0-ac03-0b8634faa285)
 
 
@@ -74,14 +74,17 @@
 ![Screenshot 2023-08-13 224520](https://github.com/lois4801/HR_Analysis/assets/96842662/76aefd21-a108-4595-9139-811c348d3de7)
 
 ### Second trial
--  Creating another column to transform the all the data all at once. But I failed.
+-  Creating another column and hoping to transform the all the data all at once. But I failed.
+-- I could have
 
 ![second trial](https://github.com/lois4801/HR_Analysis/assets/96842662/ed8b0f18-d618-4cc3-8fca-d27b371d624d)
 
 
+![second trial2](https://github.com/lois4801/HR_Analysis/assets/96842662/7afaa0fe-3867-4abf-baeb-182c01b7fc68)
 
 
-- Tried creating new column to transfer all the corrected transform data
+### Third trial
+- Tried transforming one data at a time. 
 
 
 
