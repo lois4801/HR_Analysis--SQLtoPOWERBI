@@ -131,7 +131,8 @@
 
 -- TRIAL 1
 
-![Screenshot 2023-08-14 140724](https://github.com/lois4801/HR_Analysis/assets/96842662/277f77ce-fce9-4353-9903-60ba0d27c3e2)
+![termdate1](https://github.com/lois4801/HR_Analysis/assets/96842662/33914cd6-bb6e-44ce-93fe-d83c9e48f398)
+
 
 - TRIAL 2
 
