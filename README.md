@@ -1,8 +1,6 @@
 # HR_Analysis
 ## This project is an Analysis of HR Data from year 2000 to 2020. 
--  This project has a raw data that hasnt been cleaned yet. It could be cleaned and correct the formating through excel but this will take forever due to the reason that the rows is comprised of 22215.
-
-  - Thus it is better to clean the data through python or sql and import the data in powerbi for data visualization. For now we will be using SQL to clean and correct the formating issues of dates,columns etc.
+-  This project has a raw data that hasnt been cleaned yet. Rows is comprised of 22215. It could be cleaned and correct through excel or python, but for this project I will be focusing more in SQL. Then it will be imported in PowerBI for data visualization.If I have some more time, I will also include google looker studio.
 
 
 ## NOTE: 
