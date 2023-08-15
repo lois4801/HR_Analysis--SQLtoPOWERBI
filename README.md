@@ -144,7 +144,7 @@
 - TRIAL 4
 ![termdate4](https://github.com/lois4801/HR_Analysis/assets/96842662/ecb87fe0-2ca6-4d89-b417-a305cde5085a)
 
-- TRIAL 5
+- TRIAL 5 ( THE ONE I CONSIDERED USING FOR NOW)
 ![termdate5](https://github.com/lois4801/HR_Analysis/assets/96842662/bab7988c-bf55-49b1-844e-7ba01afbccbb)
 
 - Converting the blank cells into null values
