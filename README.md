@@ -124,6 +124,7 @@
 ### TRIALS I MADE
 - I got mixed up at first between null, not null, not empty, empty, filled, unfilled data, and blank cells. But to get my 
  brain wrap around it. I have troubleshooted what kind of data I want to appear.
+- In my experience,  during designing the relational database it is important to know and set the critical values that you would want to appear  in your database system  otherwise people like me will get confuse and get a hard time cleaning and analyzing data. 
 
 - There are many ways to solve this. It depends on your goal. I can convert first cells with data into YEAR-MONTH-DATE then fill the blank cells with null values or 0000-00-00  or just leave it blank. On my end I considered using trial 5.
 
@@ -150,6 +151,8 @@
 - Converting the blank cells into null values
 ![termdate6](https://github.com/lois4801/HR_Analysis/assets/96842662/7366024b-c30d-415c-982c-261fe46dca5d)
 
+
+### 3. AGE ANOMALIES
 
 
 
