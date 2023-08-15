@@ -62,6 +62,7 @@
 ### Then using sql. I made different trials before I finally cracked it.
 
 
+### 2a. Converting birthdate and hiredate troubleshooting
 ### This is the orignal data
 ![image](https://github.com/lois4801/HR_Analysis/assets/96842662/a165f68d-4a12-41bd-9129-cf941cb8c78f)
 
@@ -115,7 +116,20 @@
 
 ![hire_date2](https://github.com/lois4801/HR_Analysis/assets/96842662/0f31e1db-55c7-44ad-90e8-778f3d7141ce)
 
-### Converting the data under termdate column
+
+### 2b. Converting the data under termdate column
+### Original data
+- ![termdate](https://github.com/lois4801/HR_Analysis/assets/96842662/c1c6f0ab-aaa8-4e6b-b23a-510cf0f9954e)
+
+### FIRST TRIAL
+
+![termdate1](https://github.com/lois4801/HR_Analysis/assets/96842662/19dfbee7-8402-4d27-b700-9a95f6f2fcd8)
+
+
+
+
+
+### SECOND TRIAL
 - Converting the datetime format into standard date format (year- month- date only) and filling the empty cells with year
 
 ![image](https://github.com/lois4801/HR_Analysis/assets/96842662/a165f68d-4a12-41bd-9129-cf941cb8c78f)
