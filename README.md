@@ -121,21 +121,35 @@
 ### Original data
 - ![termdate](https://github.com/lois4801/HR_Analysis/assets/96842662/c1c6f0ab-aaa8-4e6b-b23a-510cf0f9954e)
 
-### FIRST TRIAL
+### TRIALS I MADE
+- I got mixed up at first between null, not null, not empty, empty, filled, unfilled data, and blank cells. But to get my 
+ brain wrap around it. I have troubleshooted what kind of data I want to appear.
 
-![termdate1](https://github.com/lois4801/HR_Analysis/assets/96842662/19dfbee7-8402-4d27-b700-9a95f6f2fcd8)
+- There are many ways to solve this. It depends on your goal. I can convert first cells with data into YEAR-MONTH-DATE then fill the blank cells with null values or 0000-00-00  or just leave it blank. On my end I considered using trial 5.
+
+ -  SEE BELOW TROUBLESHOOTING I HAVE MADE
+
+-- TRIAL 1
+
+![Screenshot 2023-08-14 140724](https://github.com/lois4801/HR_Analysis/assets/96842662/277f77ce-fce9-4353-9903-60ba0d27c3e2)
+
+- TRIAL 2
+
+![termdate2](https://github.com/lois4801/HR_Analysis/assets/96842662/01825099-0f7e-48e4-ab4f-2b300a9f6578)
+
+- TRIAL 3
+![termdate3](https://github.com/lois4801/HR_Analysis/assets/96842662/7d17f457-3190-49ad-aad0-146d57b598bc)
+
+- TRIAL 4
+![termdate4](https://github.com/lois4801/HR_Analysis/assets/96842662/ecb87fe0-2ca6-4d89-b417-a305cde5085a)
+
+- TRIAL 5
+![termdate5](https://github.com/lois4801/HR_Analysis/assets/96842662/bab7988c-bf55-49b1-844e-7ba01afbccbb)
+
+- Converting the blank cells into null values
+![termdate6](https://github.com/lois4801/HR_Analysis/assets/96842662/7366024b-c30d-415c-982c-261fe46dca5d)
 
 
 
-
-
-### SECOND TRIAL
-- Converting the datetime format into standard date format (year- month- date only) and filling the empty cells with year
-
-![image](https://github.com/lois4801/HR_Analysis/assets/96842662/a165f68d-4a12-41bd-9129-cf941cb8c78f)
-
-![termdate](https://github.com/lois4801/HR_Analysis/assets/96842662/66b6cf8c-32fc-4c21-bb39-10a9a52dc96d)\
-
-![termdate2](https://github.com/lois4801/HR_Analysis/assets/96842662/4581502c-e093-4187-8e9b-81b41d2da7bc)
 
   
