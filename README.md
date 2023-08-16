@@ -153,6 +153,60 @@
 
 
 ### 3. AGE ANOMALIES
+- After adding an age column and calculated the age . I was expecting age like  positive values. But it seems that I these are unprecendented anomalies along the way that I have to analyze and clean up as well.
+
+![1](https://github.com/lois4801/HR_Analysis/assets/96842662/3360205e-86f1-4f2d-b618-5d95b3079fff)
+
+- I will walk you through my process of analyzing and cleaning the data
+  
+![age1](https://github.com/lois4801/HR_Analysis/assets/96842662/d04b17a6-d165-4ec0-a4bd-745135ecdecc)
+
+![age2](https://github.com/lois4801/HR_Analysis/assets/96842662/e8c91985-59b5-4ed6-9a88-32483ef10648)
+
+![age3](https://github.com/lois4801/HR_Analysis/assets/96842662/77102cdd-682e-4c6c-b805-77a17991c563)
+
+![age4](https://github.com/lois4801/HR_Analysis/assets/96842662/be3aa69c-abd8-40a0-be55-1a795d64a281)
+
+![age5](https://github.com/lois4801/HR_Analysis/assets/96842662/cc09f80a-99a3-48ad-913a-870eb529cfe1)
+
+![age 6](https://github.com/lois4801/HR_Analysis/assets/96842662/a0f70537-aba5-41c2-b634-a1eab4b76d88)
+
+![age7](https://github.com/lois4801/HR_Analysis/assets/96842662/d445dac8-883e-4f8d-b6a2-12874d236e66)
+
+![age8](https://github.com/lois4801/HR_Analysis/assets/96842662/e32c86bf-3c56-4ce4-b943-e714666cb0bd)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
