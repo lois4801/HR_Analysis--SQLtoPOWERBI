@@ -187,11 +187,11 @@ YEAR IN COMPANY DATA ANOMALIES
 -  It’s possible that there could be errors or inconsistencies in the data that need to be addressed. For example, the hire date or term date for those employees might be incorrect, or there could be issues with the calculation itself.
 If the negative values are indeed errors, then you have a few options for how to handle them.
 
- One option would be to delete those rows from my  dataset, but this could potentially bias my results if those employees are not representative of the overall population.
+- One option would be to delete those rows from my  dataset, but this could potentially bias my results if those employees are not representative of the overall population.
 
-Second option would be to retain those rows but exclude them from any calculations or visualizations that involve the “years in company” variable.
+- Second option would be to retain those rows but exclude them from any calculations or visualizations that involve the “years in company” variable.
 
-Third option is  to correct the errors, if possible, by updating the hire date or term date for those employees based on the assumption that it was mistype during data entry. This will allow me to include them to the rows with ZERO  YEARS IN THE COMPANY dataset later.
+- Third option is  to correct the errors, if possible, by updating the hire date or term date for those employees based on the assumption that it was mistype during data entry. This will allow me to include them to the rows with ZERO  YEARS IN THE COMPANY dataset later.
 
 ![y3](https://github.com/lois4801/HR_Analysis/assets/96842662/6dd39fab-560c-469e-a221-c4ac55fcb81a)
 
