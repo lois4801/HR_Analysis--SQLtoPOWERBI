@@ -195,8 +195,8 @@ If the negative values are indeed errors, then you have a few options for how to
 
 ![y3](https://github.com/lois4801/HR_Analysis/assets/96842662/ec06cb42-41bd-4e6a-98ed-bfe4075f1839)
 
+![image](https://github.com/lois4801/HR_Analysis/assets/96842662/8d56a2a1-7cfa-45b0-acf5-07a6741d0ab4)
 
-![y4](https://github.com/lois4801/HR_Analysis/assets/96842662/1715de25-eca1-4083-adfd-bac516aa7ec2)
 
 
 
