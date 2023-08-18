@@ -193,7 +193,8 @@ If the negative values are indeed errors, then you have a few options for how to
 
 - Third option is  to correct the errors, if possible, by updating the hire date or term date for those employees based on the assumption that it was mistype during data entry. This will allow me to include them to the rows with ZERO  YEARS IN THE COMPANY dataset later.
 
-![y3](https://github.com/lois4801/HR_Analysis/assets/96842662/6dd39fab-560c-469e-a221-c4ac55fcb81a)
+![y3](https://github.com/lois4801/HR_Analysis/assets/96842662/ec06cb42-41bd-4e6a-98ed-bfe4075f1839)
+
 
 ![y4](https://github.com/lois4801/HR_Analysis/assets/96842662/1715de25-eca1-4083-adfd-bac516aa7ec2)
 
