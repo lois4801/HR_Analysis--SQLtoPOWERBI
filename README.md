@@ -1,3 +1,8 @@
+
+
+![giphy (1)](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/9401bb26-7ee4-4d9c-8939-6f66c815e5cc)
+
+
 # HR_Analysis
 ## This project is an Analysis of HR Data from year 2000 to 2023. 
 -  This project has a raw data that hasnt been cleaned yet. Rows is comprised of 22215. It could be cleaned and corrected through excel or python, but for this project I will be focusing more in SQL. Then it will be imported in PowerBI for data visualization.If I have some more time, I will also include google looker studio.
