@@ -3,42 +3,65 @@
 -  This project has a raw data that hasnt been cleaned yet. Rows is comprised of 22215. It could be cleaned and corrected through excel or python, but for this project I will be focusing more in SQL. Then it will be imported in PowerBI for data visualization.If I have some more time, I will also include google looker studio.
 
 
-## NOTE: 
-- I have created a database and table named hr and imported all the data in its raw form. I didnt changed the data type as well.
+## Problem Statement
+This project has a raw data that hasn’t been cleaned yet. Rows is comprised of 22215. It could be cleaned and corrected through excel or python, but for this project I will be focusing more in SQL. Then it will be imported in PowerBI for data visualization. If I have some more time, I will also include google looker studio.
 
- Here are the following questions needed to be answered.
+## Here are the following questions needed to be answered ( Revised, corrected and communicated)
 
--- What is the gender breakdown of employees in the company?
+### For Dashboard 1- Age and Gender Employee Analysis
 
+** Ages>=18  means all employees who have hired from 18 above regardless if they are terminated or not ( termdate column is null or with value)
 
--- What is the race/ethnicity breakdown of employees in the company?
-
-
--- What is the age distribution of employees in the company?
-
-
--- How many employees work at headquarters versus remote locations?
-
-
--- What is the average length of employment for employees who have been terminated?
+- What is the gender distribution/ breakdown of employees in the company? Ages>=18 
+- What is the age vs gender distribution of employees in the company?
+-  How does the gender distribution across departments ?
+- How does the gender distribution across job titles?
+- Termination rate by age?
 
 
--- How does the gender distribution vary across departments and job titles?
+
+### For Dashboard 2- Employee Summary1 Analysis
+
+** Ages>=18  means all employees who have hired from 18 above regardless if they are terminated or not (( termdate column is null or with value)
+
+- What is the race/ethnicity breakdown of employees in the company? Ages>=18
+- How many employees work at headquarters versus remote locations?
+- What is the distribution of employees across locations by state?
+- What is the average length of employment for employees who have been terminated?
+- Which department has the highest turnover or termination rate?
+- How has the company's employee count changed over time based on hire and term dates?
 
 
--- What is the distribution of job titles across the company?
 
 
--- Which department has the highest turnover rate?
+### For Dashboard 3- Employee Summary2 Analysis
+- What is the average length of employment for employees who have been terminated?
+- What is the average length of employment for employees who have been terminated?
+- Which department has the highest turnover rate?
+- How has the company's employee count changed over time based on hire and term dates?
+-  What is the tenure distribution for each department?
 
 
--- What is the distribution of employees across locations by state?
 
 
--- How has the company's employee count changed over time based on hire and term dates?
 
 
--- What is the tenure distribution for each department?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Problems Encountered and how I solved it.
 
