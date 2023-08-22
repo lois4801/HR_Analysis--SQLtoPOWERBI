@@ -264,12 +264,17 @@ If the negative values are indeed errors, then you have a few options for how to
 --------------------------------------------------------------------------
 
 ## My Biggest Takeaway from this project 
--•	Well defining and planning the dashboard contents  during the first process is very important especially if the owners’ questions are all over the place and vague.
--•	Be sure to also clarify things if the question of the owner is vague. Example is turnover or termination count, rate, and total count.  
--•	Be sure to also clarify or ask if some variables can be adjusted ( like using “ages>=18” instead of “ termdate is null” ) to capture all employees in the company.  
--•	For as long as you have now the formula for termination rate etc. You can use the cleaned and transformed whole HR file to select for certain columns (attributions like age, gender, first name etc). 
--•	What I did with this project>>>>computed the termination rate by department, then when I found that it is also important to include termination rate by age. I just click the age in the cleaned dataset.
--•	After finalizing all the questions, I have decided to provide  three dashboards for more meaningful insights for each.
+-• Well defining and planning the dashboard contents  during the first process is very important especially if the owners’ questions are all over the place and vague.
+
+-• Be sure to also clarify things if the question of the owner is vague. Example is turnover or termination count, rate, and total count.  
+
+-• Be sure to also clarify or ask if some variables can be adjusted ( like using “ages>=18” instead of “ termdate is null” ) to capture all employees in the company.  
+
+-• For as long as you have now the formula for termination rate etc. You can use the cleaned and transformed whole HR file to select for certain columns (attributions like age, gender, first name etc). 
+
+-• What I did with this project>>>>computed the termination rate by department, then when I found that it is also important to include termination rate by age. I just click the age in the cleaned dataset.
+
+-• After finalizing all the questions, I have decided to provide  three dashboards for more meaningful insights for each.
 
 
 
