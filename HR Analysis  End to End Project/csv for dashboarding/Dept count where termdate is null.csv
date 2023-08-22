@@ -1,0 +1,39 @@
+department,jobtitle,gender,count
+Accounting,"Staff Accountant III",Female,1162
+Accounting,"Tax Accountant",Male,1359
+Accounting,"Senior Cost Accountant",Non-Conforming,75
+Auditing,"Internal Auditor",Female,19
+Auditing,"Internal Auditor",Male,19
+"Business Development","Research Assistant II",Female,580
+"Business Development","Business Analyst",Male,664
+"Business Development","Research Assistant II",Non-Conforming,42
+Engineering,"Developer I",Female,2417
+Engineering,"Programmer Analyst I",Male,2648
+Engineering,"Recruiting Manager",Non-Conforming,144
+"Human Resources","Human Resources Analyst",Female,663
+"Human Resources","Human Resources Analyst",Male,713
+"Human Resources","Human Resources Assistant IV",Non-Conforming,37
+Legal,"Senior Attorney",Female,106
+Legal,"Research Assistant",Male,124
+Legal,"Executive Assistant",Non-Conforming,5
+Marketing,"Senior Editor",Female,204
+Marketing,"Media Manager I",Male,199
+Marketing,"Media Manager I",Non-Conforming,5
+"Product Management","Project Manager",Female,225
+"Product Management","Quality Engineer",Male,270
+"Product Management","Project Manager",Non-Conforming,12
+"Research and Development",Operator,Female,396
+"Research and Development","Research Assistant I",Male,399
+"Research and Development","Research Associate",Non-Conforming,25
+Sales,"Pre-Sales Consultant",Female,642
+Sales,"Solutions Engineer Manager",Male,731
+Sales,"Solutions Engineer Manager",Non-Conforming,39
+Services,"Service Tech",Female,635
+Services,"Service Tech II",Male,657
+Services,"Service Tech II",Non-Conforming,29
+Support,"Help Desk Technician",Female,335
+Support,"Support Staff II",Male,365
+Support,"Help Desk Technician",Non-Conforming,27
+Training,"Trainer III",Female,609
+Training,"Training Manager",Male,682
+Training,"Senior Trainer",Non-Conforming,37
