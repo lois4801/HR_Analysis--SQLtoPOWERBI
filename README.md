@@ -2,15 +2,20 @@
 
 ![giphy (1)](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/9401bb26-7ee4-4d9c-8939-6f66c815e5cc)
 
+Please support me by following me in my social media accounts, For more projects to share like this. 
+
+Github>>>>>>>https://github.com/lois4801
+
+LinkedIn>>>>> https://www.linkedin.com/in/artemis-jay/).
 
 # HR_Analysis
 ## This project is an Analysis of HR Data from year 2000 to 2023. 
 -  This project has a raw data that hasnt been cleaned yet. Rows is comprised of 22215. It could be cleaned and corrected through excel or python, but for this project I will be focusing more in SQL. Then it will be imported in PowerBI for data visualization.If I have some more time, I will also include google looker studio.
 
-
+----------------------------------------------------------------------------------------
 ## Problem Statement
 This project has a raw data that hasn’t been cleaned yet. Rows is comprised of 22215. It could be cleaned and corrected through excel or python, but for this project I will be focusing more in SQL. Then it will be imported in PowerBI for data visualization. If I have some more time, I will also include google looker studio.
-
+---------------------------------------------------------------------------------------
 ## Here are the following questions needed to be answered ( Revised, corrected and communicated)
 
 ### For Dashboard 1- Age and Gender Employee Analysis
@@ -38,36 +43,24 @@ This project has a raw data that hasn’t been cleaned yet. Rows is comprised of
 
 
 
-
 ### For Dashboard 3- Employee Summary2 Analysis
 - What is the average length of employment for employees who have been terminated?
 - What is the average length of employment for employees who have been terminated?
 - Which department has the highest turnover rate?
 - How has the company's employee count changed over time based on hire and term dates?
 -  What is the tenure distribution for each department?
+-----------------------------------------------------------------------------------
+## Project Planning
+![s4](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/af486e3a-84c5-4544-83f5-8d5f48135c9c)
 
+-----------------------------------------------------------------------------------
 
+## Process Map
 
+![s5](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/65ada006-8037-4dbb-9d15-d2314330d6c5)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---------------------------------------------------------------------------------------
+## Data ETL
 ## Problems Encountered and how I solved it.
 
 1. During date formatting change, I mistakenly made all the dates into null during the process. So be be sure to never update the data into the main server itself. Make a copy of csv file and do your analysis using that file. 
@@ -225,17 +218,58 @@ If the negative values are indeed errors, then you have a few options for how to
 
 ![image](https://github.com/lois4801/HR_Analysis/assets/96842662/8d56a2a1-7cfa-45b0-acf5-07a6741d0ab4)
 
+### PowerBI- Troubleshooting
+- Transforming my line graph into smooth curved. I found it in the following order Format Visual>> Visual>> Lines>> Linear.
+
+![s5](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/ebd9bf78-b7a4-47d1-a99e-37df4a3e9a7c)
+
+-	Creating my Area Chart. Choose all the  variables you needed and be sure to place the year in the x-axis. 
+-	It should appear with a word YEAR instead of sum of year. 
+
+![s6](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/ab9208dd-93be-41ef-a4f2-f0643c215f31)
 
 
+- I have changed the colors of the area charts to match the color scheme of my dashboard. It took me sometime to find it. 
+
+![image](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/cdd79dfe-7752-49af-b26e-1befc685ac95)
+
+--------------------------------------------------------------------------------
+-	Two maps I have created didn’t match with my goal to present remote and hybrid employees per state and city.
+-	Because this project  computations are heavily created under the MySQL platform. I have to find a way to match my graphs and for them to communicate  and interacting with each other. 
+
+#### HERES HOW for >>> Interactive Map and Bar chart  and Pie Chart for  REMOTE and HYBRID  EMPLOYEE COUNT PER STATE and CITY
+
+- Select  REMOTE VS HEADQUARTERS dataset. (From  MySQL computed) and HR File( Cleaned and Transformed under MySQL). Then follow the checked marks for each file.
+
+![s8](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/b2897c26-72d7-4702-808b-4ff24a2eb633)
+
+![s9](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/08dc4909-072a-4098-8924-85fe6d257f98)
+
+![s10](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/1a618973-fa48-4def-942d-f8f27fc44c67)
+
+-----------------------------------------------------------------------------------
+
+## PowerBI DASHBOARD RESULTS
+
+### For Dashboard 1- Age and Gender Employee Analysis
 ![s1](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/48263f11-2f1a-4b28-89e3-48eb7a8d6fef)
 
+### For Dashboard 2- Employee Summary1 Analysis
 ![s2](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/bb4cabf8-702f-4fd9-8d34-a677e5846a05)
 
+### For Dashboard 3- Employee Summary2 Analysis
 ![s3](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/536d03c3-16a4-408d-b84a-1ccb7213b185)
 
 
+--------------------------------------------------------------------------
 
-
+## My Biggest Takeaway from this project 
+-•	Well defining and planning the dashboard contents  during the first process is very important especially if the owners’ questions are all over the place and vague.
+-•	Be sure to also clarify things if the question of the owner is vague. Example is turnover or termination count, rate, and total count.  
+-•	Be sure to also clarify or ask if some variables can be adjusted ( like using “ages>=18” instead of “ termdate is null” ) to capture all employees in the company.  
+-•	For as long as you have now the formula for termination rate etc. You can use the cleaned and transformed whole HR file to select for certain columns (attributions like age, gender, first name etc). 
+-•	What I did with this project>>>>computed the termination rate by department, then when I found that it is also important to include termination rate by age. I just click the age in the cleaned dataset.
+-•	After finalizing all the questions, I have decided to provide  three dashboards for more meaningful insights for each.
 
 
 
