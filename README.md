@@ -199,8 +199,11 @@ If the negative values are indeed errors, then you have a few options for how to
 
 
 
+![s1](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/48263f11-2f1a-4b28-89e3-48eb7a8d6fef)
 
+![s2](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/bb4cabf8-702f-4fd9-8d34-a677e5846a05)
 
+![s3](https://github.com/lois4801/HR_Analysis--SQLtoPOWERBI/assets/96842662/536d03c3-16a4-408d-b84a-1ccb7213b185)
 
 
 
