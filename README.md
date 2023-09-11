@@ -72,7 +72,10 @@ This project has a raw data that hasn’t been cleaned yet. Rows is comprised of
 - I had a hard time during data transformation, errors were encountered via excel and sql because the dataset has multiple formats included in each column.
 
 - Importing the data first in excel and did power query to transform the data but it created error on some data.
--- A friend of mine were able to transform all the data into (month / day/ year) through his developer power query ms excel software. But mine cant, so I have to think another way.
+-- A friend of mine were able to transform all
+
+
+   the data into (month / day/ year) through his developer power query ms excel software. But mine cant, so I have to think another way.
 ![Screenshot 2023-08-13 222944](https://github.com/lois4801/HR_Analysis/assets/96842662/182d9361-cd79-46c0-ac03-0b8634faa285)
 
 
@@ -94,7 +97,7 @@ This project has a raw data that hasn’t been cleaned yet. Rows is comprised of
 ![Screenshot 2023-08-13 224520](https://github.com/lois4801/HR_Analysis/assets/96842662/76aefd21-a108-4595-9139-811c348d3de7)
 
 ### Second trial
--  Created another column and hoping to transform the all the data all at once. But I failed.
+-  Created another column and hoping to transform the data all at once. But I failed.
 
 ![second trial](https://github.com/lois4801/HR_Analysis/assets/96842662/ed8b0f18-d618-4cc3-8fca-d27b371d624d)
 
