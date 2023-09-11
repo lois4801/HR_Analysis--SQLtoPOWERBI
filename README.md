@@ -215,7 +215,7 @@ YEAR IN COMPANY DATA ANOMALIES
 
 ![y2](https://github.com/lois4801/HR_Analysis/assets/96842662/68334e94-8fcb-4d38-8f21-ee80e550a364)
 
--  It’s possible that there could be errors or inconsistencies in the data that need to be addressed. For example, the hire date or term date for those employees might be incorrect, or there could be issues with the calculation itself.
+-  It’s possible that there could be errors or inconsistencies in the data that needed to be addressed. For example, the hire date or term date for those employees might be incorrect, or there could be issues with the calculation itself.
 If the negative values are indeed errors, then you have a few options for how to handle them.
 
 - One option would be to delete those rows from my  dataset, but this could potentially bias my results if those employees are not representative of the overall population.
