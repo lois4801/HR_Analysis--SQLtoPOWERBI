@@ -171,19 +171,19 @@ This project has a raw data that hasn’t been cleaned yet. Rows is comprised of
 
 - TRIAL 4
   
-![termdate4](https://github.com/lois4801/HR_Analysis/assets/96842662/ecb87fe0-2ca6-4d89-b417-a305cde5085a)
+  ![termdate4](https://github.com/lois4801/HR_Analysis/assets/96842662/ecb87fe0-2ca6-4d89-b417-a305cde5085a)
 
 
 
 - TRIAL 5 ( THE ONE I CONSIDERED USING FOR NOW)
 
-![termdate5](https://github.com/lois4801/HR_Analysis/assets/96842662/bab7988c-bf55-49b1-844e-7ba01afbccbb)
+  ![termdate5](https://github.com/lois4801/HR_Analysis/assets/96842662/bab7988c-bf55-49b1-844e-7ba01afbccbb)
 
 
 - Converting the blank cells into null values
 
   
-![termdate6](https://github.com/lois4801/HR_Analysis/assets/96842662/7366024b-c30d-415c-982c-261fe46dca5d)
+  ![termdate6](https://github.com/lois4801/HR_Analysis/assets/96842662/7366024b-c30d-415c-982c-261fe46dca5d)
 
 
 ### 3. AGE ANOMALIES
