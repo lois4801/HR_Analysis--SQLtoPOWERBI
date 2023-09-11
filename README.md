@@ -164,15 +164,25 @@ This project has a raw data that hasn’t been cleaned yet. Rows is comprised of
 ![termdate2](https://github.com/lois4801/HR_Analysis/assets/96842662/01825099-0f7e-48e4-ab4f-2b300a9f6578)
 
 - TRIAL 3
+  
 ![termdate3](https://github.com/lois4801/HR_Analysis/assets/96842662/7d17f457-3190-49ad-aad0-146d57b598bc)
 
+
+
 - TRIAL 4
+  
 ![termdate4](https://github.com/lois4801/HR_Analysis/assets/96842662/ecb87fe0-2ca6-4d89-b417-a305cde5085a)
 
+
+
 - TRIAL 5 ( THE ONE I CONSIDERED USING FOR NOW)
+
 ![termdate5](https://github.com/lois4801/HR_Analysis/assets/96842662/bab7988c-bf55-49b1-844e-7ba01afbccbb)
 
+
 - Converting the blank cells into null values
+
+  
 ![termdate6](https://github.com/lois4801/HR_Analysis/assets/96842662/7366024b-c30d-415c-982c-261fe46dca5d)
 
 
