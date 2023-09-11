@@ -187,7 +187,7 @@ This project has a raw data that hasn’t been cleaned yet. Rows is comprised of
 
 
 ### 3. AGE ANOMALIES
-- After adding an age column and calculated the age . I was expecting age like  positive values. But it seems that I these are unprecendented anomalies along the way that I have to analyze and clean up as well.
+- After adding an age column and calculated the age . I was expecting age like  positive values. But it seems that these unprecendented anomalies  are along the way that I have to analyze and clean up as well.
 
 ![1](https://github.com/lois4801/HR_Analysis/assets/96842662/3360205e-86f1-4f2d-b618-5d95b3079fff)
 
