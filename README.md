@@ -12,39 +12,40 @@ LinkedIn>>>>> https://www.linkedin.com/in/artemis-jay/).
 ## This project is an Analysis of HR Data from year 2000 to 2023. 
 -  This project has a raw data that hasnt been cleaned yet. Rows is comprised of 22215. It could be cleaned and corrected through excel or python, but for this project I will be focusing more in SQL. Then it will be imported in PowerBI for data visualization.If I have some more time, I will also include google looker studio.
 
-Scope: roughly 22,215 HR records covering 2000 to 2023, cleaned almost entirely in SQL.
-Tools: MySQL Workbench, SQL, CSV, Power BI. Google Looker Studio was noted as a possible extension.
-SQL techniques: CASE logic, STR_TO_DATE, DATE_FORMAT, ALTER TABLE ... MODIFY COLUMN, TIMESTAMPDIFF, DATEDIFF, FLOOR, GROUP BY, ORDER BY and subqueries.
-Deliverables: three Power BI dashboards covering age and gender, employee summary, and tenure and turnover, plus 16 SQL query outputs prepared as CSV datasets for dashboarding.
-Documentation: the README walks through every failed attempt before the working solution, which is strong evidence of how you debug.
+# Highlights 
+**1. Scope:** roughly 22,215 HR records covering 2000 to 2023, cleaned almost entirely in SQL.
+**2. Tools:** MySQL Workbench, SQL, CSV, Power BI. Google Looker Studio was noted as a possible extension.
+**3. SQL techniques:** CASE logic, STR_TO_DATE, DATE_FORMAT, ALTER TABLE ... MODIFY COLUMN, TIMESTAMPDIFF, DATEDIFF, FLOOR, GROUP BY, ORDER BY and subqueries.
+**4. Deliverables:** three Power BI dashboards covering age and gender, employee summary, and tenure and turnover, plus 16 SQL query outputs prepared as CSV datasets for dashboarding.
+**5. Documentation:** the README walks through every failed attempt before the working solution, which is strong evidence of how you debug.
 
 
 # Problems
-**Mixed date formats in one column. ** birthdate and hire_date held combinations like 06-04-91 and 6/29/1984 alongside 2012-01-01.
-**A destructive update.** During a date-format change you set dates to null and learned to work on a copy rather than the live table.
-**Termination date ambiguity.** Many ways to represent blanks: null, empty string, and zero dates.
-**Age anomalies.** The calculated age column produced unrealistic values that needed investigation.
-**Negative tenure.** Some records showed termdate earlier than hire_date, which is impossible.
-**Ambiguous business definitions. **You noted that the owner's questions around turnover and termination count were vague.
-**Power BI interaction issues.** Maps and charts did not initially interact, and the trend line needed smoothing.
+- **Mixed date formats in one column.** birthdate and hire_date held combinations like 06-04-91 and 6/29/1984 alongside 2012-01-01.
+- **A destructive update.** During a date-format change you set dates to null and learned to work on a copy rather than the live table.
+- **Termination date ambiguity.** Many ways to represent blanks: null, empty string, and zero dates.
+- **Age anomalies.** The calculated age column produced unrealistic values that needed investigation.
+- **Negative tenure.** Some records showed termdate earlier than hire_date, which is impossible.
+- **Ambiguous business definitions.** You noted that the owner's questions around turnover and termination count were vague.
+- **Power BI interaction issues.** Maps and charts did not initially interact, and the trend line needed smoothing.
 
 
 # Solutions
-- Standardized dates with a CASE transformation that detected slashes and hyphens, then used STR_TO_DATE with the correct pattern, followed by ALTER TABLE to convert the column to a real date type.
-- Built the fix incrementally. You tried several approaches, got each format working separately, dropped the table, re-imported the raw file and then combined both transformations into a single run.
-- Resolved the null question deliberately. You chose to convert populated termination dates to a date type and set the blanks to null, rather than relying on zero dates.
-- Handled age anomalies by checking the minimum and maximum age, counting how many rows were affected, and filtering records below 18.
-- Corrected negative tenure by setting termdate equal to hire_date where the difference was negative, producing a defensible zero-years-in-company result.
-- Clarified definitions with the owner, including your decision to define the population as age 18 and over rather than relying on a null termination date.
-- Fixed the map interaction by joining the MySQL-computed remote-versus-headquarters dataset with the cleaned HR file and setting the correct relationship fields in Power BI.
+1. Standardized dates with a CASE transformation that detected slashes and hyphens, then used STR_TO_DATE with the correct pattern, followed by ALTER TABLE to convert the column to a real date type.
+2. Built the fix incrementally. You tried several approaches, got each format working separately, dropped the table, re-imported the raw file and then combined both transformations into a single run.
+3. Resolved the null question deliberately. You chose to convert populated termination dates to a date type and set the blanks to null, rather than relying on zero dates.
+4. Handled age anomalies by checking the minimum and maximum age, counting how many rows were affected, and filtering records below 18.
+5. Corrected negative tenure by setting termdate equal to hire_date where the difference was negative, producing a defensible zero-years-in-company result.
+6. Clarified definitions with the owner, including your decision to define the population as age 18 and over rather than relying on a null termination date.
+7. Fixed the map interaction by joining the MySQL-computed remote-versus-headquarters dataset with the cleaned HR file and setting the correct relationship fields in Power BI.
 
-Lessons learned
-**Never transform the live table.** Work on a copy, because one mistake nulled an entire date column.
-**Clarify vague requirements early.** Turnover count, rate and total count are different measures.
-**Define the population explicitly.** Age 18 and over is a clearer rule than a null termination date.
-**Document trade-offs.** Removing, retaining or correcting anomalous rows changes the results, and the reasoning belongs in the writeup.
-**Build transformations incrementally. **Getting one format working at a time is what made the combined script work.
-**Type correctness matters.** A text date column will fail in every date function downstream.
+# Lessons learned
+- **Never transform the live table.** Work on a copy, because one mistake nulled an entire date column.
+- **Clarify vague requirements early.** Turnover count, rate and total count are different measures.
+- **Define the population explicitly.** Age 18 and over is a clearer rule than a null termination date.
+- **Document trade-offs.** Removing, retaining or correcting anomalous rows changes the results, and the reasoning belongs in the writeup.
+- **Build transformations incrementally.** Getting one format working at a time is what made the combined script work.
+- **Type correctness matters.** A text date column will fail in every date function downstream.
 
 
 
