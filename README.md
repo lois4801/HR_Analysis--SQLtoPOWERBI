@@ -13,11 +13,11 @@ LinkedIn>>>>> https://www.linkedin.com/in/artemis-jay/).
 -  This project has a raw data that hasnt been cleaned yet. Rows is comprised of 22215. It could be cleaned and corrected through excel or python, but for this project I will be focusing more in SQL. Then it will be imported in PowerBI for data visualization.If I have some more time, I will also include google looker studio.
 
 # Highlights 
-**1. Scope:** roughly 22,215 HR records covering 2000 to 2023, cleaned almost entirely in SQL.
-**2. Tools:** MySQL Workbench, SQL, CSV, Power BI. Google Looker Studio was noted as a possible extension.
-**3. SQL techniques:** CASE logic, STR_TO_DATE, DATE_FORMAT, ALTER TABLE ... MODIFY COLUMN, TIMESTAMPDIFF, DATEDIFF, FLOOR, GROUP BY, ORDER BY and subqueries.
-**4. Deliverables:** three Power BI dashboards covering age and gender, employee summary, and tenure and turnover, plus 16 SQL query outputs prepared as CSV datasets for dashboarding.
-**5. Documentation:** the README walks through every failed attempt before the working solution, which is strong evidence of how you debug.
+- **1.Scope:** roughly 22,215 HR records covering 2000 to 2023, cleaned almost entirely in SQL.
+- **2. Tools:** MySQL Workbench, SQL, CSV, Power BI. Google Looker Studio was noted as a possible extension.
+- **3. SQL techniques:** CASE logic, STR_TO_DATE, DATE_FORMAT, ALTER TABLE ... MODIFY COLUMN, TIMESTAMPDIFF, DATEDIFF, FLOOR, GROUP BY, ORDER BY and subqueries.
+- **4. Deliverables:** three Power BI dashboards covering age and gender, employee summary, and tenure and turnover, plus 16 SQL query outputs prepared as CSV datasets for dashboarding.
+- **5. Documentation:** the README walks through every failed attempt before the working solution, which is strong evidence of how you debug.
 
 
 # Problems
